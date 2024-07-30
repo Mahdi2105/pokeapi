@@ -11,7 +11,8 @@ function SearchBar(props) {
     sertCurrSearch(event.target.value);
   }
 
-  function handleSubmit() {
+  function handleSubmit(event) {
+    event.preventDefault();
     setSearch(currSearch);
     sertCurrSearch("");
   }
