@@ -46,7 +46,7 @@ function SinglePokemon(props) {
                 onChange={handleShiny}
               />
             </div>
-            <img src={imgSrc} />
+            <img src={imgSrc} className="pokemon-image" />
             <div>
               <h3>Front/Back</h3>
               <Switch

@@ -91,3 +91,8 @@ h1 {
   text-align: left;
   margin-right: 20px;
 }
+
+.pokemon-image {
+  min-width: 250px;
+  min-height: 250px;
+}
