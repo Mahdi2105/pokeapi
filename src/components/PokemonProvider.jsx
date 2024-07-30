@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Pokemon from "./Pokemon";
 import { fetchAllPokemon, fetchPokemon } from "../../api";
-import { Card, Pagination } from "@mui/material";
+import { Pagination } from "@mui/material";
 import Loading from "./Loading";
 import SinglePokemon from "./SinglePokemon";
 
